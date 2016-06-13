@@ -1,0 +1,6 @@
+---
+applications:
+    - name: hello-gologo13
+      path: target/hello-cf-0.0.1-SNAPSHOT.jar
+      buildpack: java_buildpack
+      random-route: true
